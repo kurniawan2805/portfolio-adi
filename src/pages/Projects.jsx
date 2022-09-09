@@ -11,7 +11,8 @@ const Projects = () => {
   useEffect(() => {
     const getData = async () => {
       const url =
-        "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/components/projects/data.json";
+        "https://raw.githubusercontent.com/kurniawan2805/portfolio-adi/master/src/projects/data.json";
+
       try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -20,7 +21,9 @@ const Projects = () => {
           );
         }
         let actualData = await response.json();
-        setData(actualData.data);
+        if (actualData) {
+          setData(actualData);
+        }
         setError(null);
       } catch (err) {
         setError(err.message);
@@ -34,20 +37,20 @@ const Projects = () => {
     };
     getData();
   }, []);
-  // console.log({ data });
-  const dataProject = data.map((project) => (
-    <Project
-      key={project.id}
-      title={project.title}
-      desc={project.desc}
-      url={project.url}
-      imgUrl={project.imgUrl}
-    />
-  ));
+  console.log({ data });
+  // const dataProject = data.map((project) => (
+  //   <Project
+  //     key={project.id}
+  //     title={project.title}
+  //     desc={project.desc}
+  //     url={project.url}
+  //     imgUrl={project.imgUrl}
+  //   />
+  // ));
   return (
     <section className="projects">
       <h4 className="text-center">Some works I play with...</h4>
-      <div className="container projects-wraper">{dataProject}</div>
+      {/* <div className="container projects-wraper">{dataProject}</div> */}
     </section>
   );
 };

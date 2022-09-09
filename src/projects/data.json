@@ -33,7 +33,6 @@
       "title": "Hacker News Clone",
       "desc": "Build clone of hacker-news using ReactJS, learn to use axios to fetch sequential data",
       "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/31tz9upV1FL.png",
-      // "imgUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Hackernews_logo.png",
       "url": "https://0p7jw848ow.codesandbox.io/"
     },
     {
