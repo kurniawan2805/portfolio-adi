@@ -38,7 +38,7 @@
     {
       "id": 6,
       "title": "Handwriting Recognition",
-      "desc": "Build and deploy machine learning based to recognize handwriting name. Build on top of tensorflow and streamlit.",
+      "desc": "Build and deploy machine learning to recognize handwriting name. Build on top of tensorflow and streamlit.",
       "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-adi/master/src/assets/rect919.png",
       "url": "https://kurniawan2805-handwriting-recognition-streamlit-test-adi-u6aool.streamlitapp.com/"
     }
