@@ -45,13 +45,13 @@ const Layout = () => {
               </li>
               <li>
                 <NavLink
-                  to="/contact"
+                  to="/about"
                   className={({ isActive }) =>
                     isActive ? "link-active" : undefined
                   }
                 >
                   <IoIosContact />
-                  <span className="nav__text">Contact</span>
+                  <span className="nav__text">About</span>
                 </NavLink>
               </li>
             </ul>

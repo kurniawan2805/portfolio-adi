@@ -9,7 +9,7 @@ const Project = (props) => {
         <p className="card-text">{desc}</p>
         {url ? (
           <button>
-            <a href={url} className="button">
+            <a href={url} className="button" target="_blank">
               See Detail
             </a>
           </button>

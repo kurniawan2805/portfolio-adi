@@ -1,0 +1,40 @@
+@import "../styles/variables.scss";
+
+$img_size: 150px;
+.about {
+  .section-title {
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+  }
+  .about__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    // margin: 0 1rem;
+    width: 100%;
+    .about__image {
+      height: $img_size;
+      width: $img_size;
+      border-radius: 50%;
+      box-shadow: -1px 2px 3px 1px #464646;
+      margin: 10px;
+      padding: 1px;
+      position: relative;
+      // margin: 0 auto;
+    }
+  }
+}
+
+// Responsive
+@include mediaMd {
+  .about__wrapper {
+    flex-direction: row;
+  }
+}
+
+p {
+  margin: 1rem 0;
+}
