@@ -1,13 +1,6 @@
 {
   "data": [
     {
-      "id": 0,
-      "title": "Simple Line Follower Book Tutorial",
-      "desc": "Contributed in wrting a published documentation tutorial: Jurus Kilat Jago Membuat Robot, Dunia Komputer Publishers, Jakarta, 2012",
-      "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/book.png",
-      "url": ""
-    },
-    {
       "id": 1,
       "title": "Centralize AC Remote Control",
       "desc": "Develop a remote control to an old-type centralize air conditioner using Arduino.",
@@ -41,6 +34,13 @@
       "desc": "Build simple app in react about podomoro technique.",
       "imgUrl": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftimstout.files.wordpress.com%2F2011%2F05%2Fpomodoro-technique.png&f=1",
       "url": "https://1q3mwy3rm7.codesandbox.io/"
+    },
+    {
+      "id": 6,
+      "title": "Handwriting Recognition",
+      "desc": "Build and deploy machine learning based to recognize handwriting name. Build on top of tensorflow and streamlit.",
+      "imgUrl": "https://github.com/kurniawan2805/portfolio-adi/blob/master/src/assets/rect919.png",
+      "url": "https://kurniawan2805-handwriting-recognition-streamlit-test-adi-u6aool.streamlitapp.com/"
     }
   ]
 }
