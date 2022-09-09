@@ -17,7 +17,7 @@
     {
       "id": 3,
       "title": "React Portfolio",
-      "desc": "Refactor my simple portfolio using ReactJS and bootstrap, learn to use async-await in fech JSON data",
+      "desc": "Refactor my simple portfolio using ReactJS and Sass, learn to use async-await in fech JSON data",
       "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/react.png",
       "url": "https://kurniawan2805.github.io/"
     },
