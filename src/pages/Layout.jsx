@@ -34,7 +34,7 @@ const Layout = () => {
               </li>
               <li>
                 <NavLink
-                  to="/project"
+                  to="/projects"
                   className={({ isActive }) =>
                     isActive ? "link-active" : undefined
                   }

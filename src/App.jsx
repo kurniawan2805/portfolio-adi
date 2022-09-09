@@ -4,7 +4,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import NoPage from "./pages/NoPage";
-import Project from "./pages/Project";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="project" element={<Project />} />
+          <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>

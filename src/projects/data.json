@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "title": "Simple Line Follower Book Tutorial",
+      "desc": "Contributed in wrting a published documentation tutorial: Jurus Kilat Jago Membuat Robot, Dunia Komputer Publishers, Jakarta, 2012",
+      "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/book.png",
+      "url": ""
+    },
+    {
+      "id": 1,
+      "title": "Centralize AC Remote Control",
+      "desc": "Develop a remote control to an old-type centralize air conditioner using Arduino.",
+      "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/ac.png",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "title": "Simple Responsive Portfolio",
+      "desc": "Build my portfolio using simple plain css, html, and javascript",
+      "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/html5.png",
+      "url": "https://kurniawan2805.github.io/myPortfolio/"
+    },
+    {
+      "id": 3,
+      "title": "React Portfolio",
+      "desc": "Refactor my simple portfolio using ReactJS and bootstrap, learn to use async-await in fech JSON data",
+      "imgUrl": "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/react.png",
+      "url": "https://kurniawan2805.github.io/"
+    },
+    {
+      "id": 4,
+      "title": "Hacker News Clone",
+      "desc": "Build clone of hacker-news using ReactJS, learn to use axios to fetch sequential data",
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/31tz9upV1FL.png",
+      // "imgUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Hackernews_logo.png",
+      "url": "https://0p7jw848ow.codesandbox.io/"
+    },
+    {
+      "id": 5,
+      "title": "Podomoro",
+      "desc": "Build simple app in react about podomoro technique.",
+      "imgUrl": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftimstout.files.wordpress.com%2F2011%2F05%2Fpomodoro-technique.png&f=1",
+      "url": "https://1q3mwy3rm7.codesandbox.io/"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+@import "../styles/variables.scss";
+
+.projects-wraper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease;
+  margin: 10px;
+  min-width: 150px;
+  max-width: 320px;
+
+  flex: 1 1 auto;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card-img-top {
+    height: 128px;
+    width: auto;
+    // margin: 0 auto;
+    text-align: center;
+  }
+  .card-body {
+    .card-title {
+      font-size: 1rem;
+    }
+    .card-text {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@include mediaMd {
+  .projects-wraper {
+    flex-flow: row wrap;
+    align-items: stretch;
+
+    .card {
+      flex-basis: auto;
+      &:hover {
+        box-shadow: 8px 0 16px 0 rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
+
+@include mediaLg {
+  .projects-wraper {
+    // flex-flow: row nowrap;
+
+    .card {
+      flex-basis: 32vw;
+    }
+  }
+}

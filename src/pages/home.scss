@@ -1,0 +1,59 @@
+@import "../styles/variables.scss";
+
+.jumbotron {
+  background-image: url("https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/bg500.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  height: calc(100vh - 75px);
+  // margin-top: -75px;
+  // padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+  // gap: 0.25rem;
+  justify-content: center;
+  // align-items: center;
+
+  h1,
+  p.lead {
+    color: $primary-color;
+    text-shadow: -2px 2px 5px $shadow-color;
+    z-index: 2;
+    background: $shadow-color;
+    // margin-left: 25px;
+    padding: 5px 15px;
+  }
+  p.lead {
+    font-size: 1rem;
+  }
+}
+
+.contact {
+  display: flex;
+
+  a {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+  }
+}
+
+/* responsive */
+// @media only screen and (min-width: 728px) {
+@include mediaMd {
+  .jumbotron {
+    background-image: url("https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/bg1000.jpeg");
+    align-items: flex-start;
+  }
+}
+
+@include mediaLg {
+  .jumbotron {
+    background-image: url("https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/bg2000.jpeg");
+    align-items: flex-start;
+  }
+}

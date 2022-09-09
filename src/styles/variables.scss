@@ -5,8 +5,12 @@ $Montserrat: "Montserrat", sans-serif;
 // colors
 $dark: rgb(29, 29, 29);
 $light: #fff;
-$primary: rgb(162, 162, 246);
+// $primary: rgb(162, 162, 246);
 $bg: rgb(244, 244, 255);
+
+$primary-color: #cecece;
+$shadow-color: rgba(34, 32, 32, 0.4);
+$nav-size: 40px;
 
 //spacing
 $spacing-md: 16px;
@@ -21,15 +25,45 @@ $headerHeight: 100px;
 // transition
 $transition: 0.3s ease all;
 
-@mixin breakpoint($point) {
-  @if $point == md {
-    @media (max-width: 1024px) {
-      @content;
-    }
-  }
-  @if $point == sm {
-    @media (max-width: 768px) {
-      @content;
-    }
+// @mixin breakpoint($point) {
+//   @if $point == md {
+//     @media (max-width: 1024px) {
+//       @content;
+//     }
+//   }
+//   @if $point == sm {
+//     @media (max-width: 768px) {
+//       @content;
+//     }
+//   }
+// }
+
+// Media Query Mixins
+@mixin mediaSx {
+  @media screen and (max-width: 500px) {
+    @content;
   }
 }
+@mixin mediaSm {
+  @media screen and (min-width: 501px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}
+
+// @mixin mediaXl {
+//   @media screen and (min-width: 1171px) {
+//     @content;
+//   }
+// }
