@@ -22,7 +22,7 @@ const Projects = () => {
         }
         let actualData = await response.json();
         if (actualData) {
-          setData(actualData);
+          setData(actualData.data);
         }
         setError(null);
       } catch (err) {
@@ -37,20 +37,20 @@ const Projects = () => {
     };
     getData();
   }, []);
-  console.log({ data });
-  // const dataProject = data.map((project) => (
-  //   <Project
-  //     key={project.id}
-  //     title={project.title}
-  //     desc={project.desc}
-  //     url={project.url}
-  //     imgUrl={project.imgUrl}
-  //   />
-  // ));
+  // console.log(data);
+  const dataProject = data.map((project) => (
+    <Project
+      key={project.id}
+      title={project.title}
+      desc={project.desc}
+      url={project.url}
+      imgUrl={project.imgUrl}
+    />
+  ));
   return (
     <section className="projects">
       <h4 className="text-center">Some works I play with...</h4>
-      {/* <div className="container projects-wraper">{dataProject}</div> */}
+      <div className="container projects-wraper">{dataProject}</div>
     </section>
   );
 };
