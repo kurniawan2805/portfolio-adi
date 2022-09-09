@@ -1,5 +1,13 @@
 import "./about.scss";
 
+import {
+  FaFreeCodeCamp,
+  FaLinkedinIn,
+  FaGithub,
+  FaTwitter,
+} from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+
 const me =
   "https://raw.githubusercontent.com/kurniawan2805/portfolio-react/master/src/img/adi2.png";
 
@@ -20,6 +28,43 @@ const About = () => {
             Development.
           </p>
           <p>Let's get connected.</p>
+        </div>
+        <div className="contact">
+          <a
+            href="https://github.com/kurniawan2805/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="mailto:kurniawan2805@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiGmail />
+          </a>
+          <a
+            href="https://twitter.com/kurniawan2805"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kurniawan2805/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedinIn />
+          </a>
+          <a
+            href="https://www.freecodecamp.org/kurniawan2805"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFreeCodeCamp />
+          </a>
         </div>
       </div>
     </section>

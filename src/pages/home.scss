@@ -8,15 +8,12 @@
   background-size: cover;
   position: relative;
   overflow: auto;
-  width: 100%;
+  width: auto;
   height: calc(100vh - 75px);
-  // margin-top: -75px;
-  // padding-top: 55px;
   display: flex;
   flex-direction: column;
-  // gap: 0.25rem;
   justify-content: center;
-  // align-items: center;
+  align-items: center;
 
   h1,
   p.lead {
@@ -24,21 +21,11 @@
     text-shadow: -2px 2px 5px $shadow-color;
     z-index: 2;
     background: $shadow-color;
-    // margin-left: 25px;
     padding: 5px 15px;
+    margin: 0.5rem 1rem;
   }
   p.lead {
     font-size: 1rem;
-  }
-}
-
-.contact {
-  display: flex;
-
-  a {
-    color: white;
-    font-size: 2rem;
-    margin: 1rem;
   }
 }
 

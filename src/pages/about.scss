@@ -38,3 +38,13 @@ $img_size: 150px;
 p {
   margin: 1rem 0;
 }
+
+.contact {
+  display: flex;
+
+  a {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+  }
+}
